@@ -1,3 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>None./</loc>
+        <lastmod>2026-03-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="None"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/"/>
+    </url>
+    <url>
+        <loc>Nonecase1/</loc>
+        <lastmod>2026-03-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="Nonecase1/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/case1/"/>
+    </url>
+    <url>
+        <loc>Nonecase2/</loc>
+        <lastmod>2026-03-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="Nonecase2/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/case2/"/>
+    </url>
+    <url>
+        <loc>Nonecase3/</loc>
+        <lastmod>2026-03-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="Nonecase3/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/case3/"/>
+    </url>
+    <url>
+        <loc>Noneexperience/</loc>
+        <lastmod>2026-03-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneexperience/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/experience/"/>
+    </url>
+    <url>
+        <loc>Noneskills/</loc>
+        <lastmod>2026-03-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneskills/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/skills/"/>
+    </url>
+    <url>
+        <loc>Noneen/</loc>
+        <lastmod>2026-03-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="None"/>
+    </url>
+    <url>
+        <loc>Noneen/case1/</loc>
+        <lastmod>2026-03-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/case1/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Nonecase1/"/>
+    </url>
+    <url>
+        <loc>Noneen/case2/</loc>
+        <lastmod>2026-03-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/case2/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Nonecase2/"/>
+    </url>
+    <url>
+        <loc>Noneen/case3/</loc>
+        <lastmod>2026-03-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/case3/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Nonecase3/"/>
+    </url>
+    <url>
+        <loc>Noneen/experience/</loc>
+        <lastmod>2026-03-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/experience/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneexperience/"/>
+    </url>
+    <url>
+        <loc>Noneen/skills/</loc>
+        <lastmod>2026-03-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/skills/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="Noneskills/"/>
+    </url>
 </urlset>
