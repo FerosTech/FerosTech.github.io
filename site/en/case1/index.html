@@ -81,6 +81,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#case-1-ecommerce-audit-optimization-shopify-google-ads" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -495,6 +500,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Case 1 (eCommerce)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -512,6 +537,86 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#stage-1-deep-audit-what-went-wrong" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔍 Stage 1: Deep Audit (What went wrong?)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stage-2-strategy-solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠 Stage 2: Strategy &amp; Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🛠 Stage 2: Strategy &amp; Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-tech-part-fixing-analytics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Tech Part: Fixing Analytics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-performance-max-restructuring-data-driven-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Performance Max Restructuring (Data-Driven Approach)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-cleaning-search-campaigns-remarketing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Cleaning Search Campaigns &amp; Remarketing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -598,43 +703,49 @@
 
 
 
-  <h1>Case 1 (eCommerce)</h1>
-
-<p># Case 1: eCommerce Audit \&amp; Optimization (Shopify + Google Ads)</p>
+<h1 id="case-1-ecommerce-audit-optimization-shopify-google-ads">Case 1: eCommerce Audit &amp; Optimization (Shopify + Google Ads)</h1>
 <div class="admonition abstract">
 <p class="admonition-title">Client Brief (Simulation)</p>
+<p><strong>Niche:</strong> Outdoor/Camping Gear Store (Shopify).
+<strong>Problem:</strong> Google Ads budget is $2,000/month. Over the past 2 months, overall ROAS dropped from 300% to a critical 110%. Cost Per Acquisition (CPA) doubled.
+<strong>Task:</strong> Conduct an audit of analytics and campaigns (Performance Max, Search), find the cause of the budget drain, and implement solutions to restore ROAS to 250%+.</p>
 </div>
-<p>&nbsp;   **Niche:** Outdoor/Camping Gear Store (Shopify).</p>
-<p>&nbsp;   **Problem:** Google Ads budget is $2,000/month. Over the past 2 months, overall ROAS dropped from 300% to a critical 110%. Cost Per Acquisition (CPA) doubled.</p>
-<p>&nbsp;   **Task:** Conduct an audit of analytics and campaigns (Performance Max, Search), find the cause of the budget drain, and implement solutions to restore ROAS to 250%+.</p>
 <hr />
-<p>## 🔍 Stage 1: Deep Audit (What went wrong?)</p>
+<h2 id="stage-1-deep-audit-what-went-wrong">🔍 Stage 1: Deep Audit (What went wrong?)</h2>
 <p>During the analysis of GA4 and the ad account, I found 3 key issues:</p>
-<p>1. **Budget Cannibalization in Performance Max:** The automated algorithm spent 65% of the budget on cheap, low-margin items (laces, small accessories), ignoring high-margin products (tents, backpacks).</p>
-<p>2. **Junk Traffic in Search:** Search campaigns used Broad Match without a proper negative keyword list. Thousands of budget were wasted on informational queries (e.g., "DIY tent repair").</p>
-<p>3. **Conversion Tracking Failure:** After updating the Shopify code, transactions were duplicated in Google Tag Manager, which broke the learning of Google's smart bidding strategies (the system thought it was generating more revenue than it actually was).</p>
+<ol>
+<li><strong>Budget Cannibalization in Performance Max:</strong> The automated algorithm spent 65% of the budget on cheap, low-margin items (laces, small accessories), ignoring high-margin products (tents, backpacks).</li>
+<li><strong>Junk Traffic in Search:</strong> Search campaigns used Broad Match without a proper negative keyword list. Thousands of budget were wasted on informational queries (e.g., "DIY tent repair").</li>
+<li><strong>Conversion Tracking Failure:</strong> After updating the Shopify code, transactions were duplicated in Google Tag Manager, which broke the learning of Google's smart bidding strategies (the system thought it was generating more revenue than it actually was).</li>
+</ol>
 <hr />
-<p>## 🛠 Stage 2: Strategy \&amp; Solution</p>
-<p>### 1. Tech Part: Fixing Analytics</p>
-<p>* Fixed errors in the DataLayer on the Shopify platform.</p>
-<p>* Configured correct conversion value passing via **GTM** to GA4 and Google Ads (eliminated duplicates).</p>
-<p>* Implemented **Enhanced Conversions** for more accurate cookieless user tracking, improving data accuracy by 15%.</p>
-<p>### 2. Performance Max Restructuring (Data-Driven Approach)</p>
-<p>Instead of one "catch-all" campaign, I segmented the product feed based on business margins:</p>
-<p>* **Campaign A (High Margin):** Tents, expensive sleeping bags (Set target ROAS: 300%).</p>
-<p>* **Campaign B (Low Margin):** Small gear (Set target ROAS: 150% with a strict budget cap).</p>
-<p>* Optimized product titles in the feed: added brands and key features for better search matching.</p>
-<p>### 3. Cleaning Search Campaigns \&amp; Remarketing</p>
-<p>* Collected over 300+ negative keywords from the search terms report.</p>
-<p>* Moved the highest-converting search queries to Phrase and Exact match.</p>
-<p>* Built a retargeting funnel: created an "Abandoned Cart" audience in GA4 and launched dynamic remarketing in **Meta Ads (Facebook Pixel)** with personalized reminder creatives.</p>
+<h2 id="stage-2-strategy-solution">🛠 Stage 2: Strategy &amp; Solution</h2>
+<h3 id="1-tech-part-fixing-analytics">1. Tech Part: Fixing Analytics</h3>
+<ul>
+<li>Fixed errors in the DataLayer on the Shopify platform.</li>
+<li>Configured correct conversion value passing via <strong>GTM</strong> to GA4 and Google Ads (eliminated duplicates).</li>
+<li>Implemented <strong>Enhanced Conversions</strong> for more accurate cookieless user tracking, improving data accuracy by 15%.</li>
+</ul>
+<h3 id="2-performance-max-restructuring-data-driven-approach">2. Performance Max Restructuring (Data-Driven Approach)</h3>
+<p>Instead of one "catch-all" campaign, I segmented the product feed based on business margins:
+* <strong>Campaign A (High Margin):</strong> Tents, expensive sleeping bags (Set target ROAS: 300%).
+* <strong>Campaign B (Low Margin):</strong> Small gear (Set target ROAS: 150% with a strict budget cap).
+* Optimized product titles in the feed: added brands and key features for better search matching.</p>
+<h3 id="3-cleaning-search-campaigns-remarketing">3. Cleaning Search Campaigns &amp; Remarketing</h3>
+<ul>
+<li>Collected over 300+ negative keywords from the search terms report.</li>
+<li>Moved the highest-converting search queries to Phrase and Exact match.</li>
+<li>Built a retargeting funnel: created an "Abandoned Cart" audience in GA4 and launched dynamic remarketing in <strong>Meta Ads (Facebook Pixel)</strong> with personalized reminder creatives.</li>
+</ul>
 <hr />
 <div class="admonition success">
 <p class="admonition-title">Optimization Result (First 30 days)</p>
+<ul>
+<li><strong>ROAS:</strong> Stabilized and grew from 110% to <strong>280%</strong>.</li>
+<li><strong>CPA:</strong> Decreased by <strong>45%</strong> by cutting off irrelevant search traffic.</li>
+<li><strong>Revenue:</strong> The share of sales from high-margin products increased significantly.</li>
+</ul>
 </div>
-<p>&nbsp;   * **ROAS:** Stabilized and grew from 110% to **280%**.</p>
-<p>&nbsp;   * **CPA:** Decreased by **45%** by cutting off irrelevant search traffic.</p>
-<p>&nbsp;   * **Revenue:** The share of sales from high-margin products increased significantly.</p>
 
 
 
