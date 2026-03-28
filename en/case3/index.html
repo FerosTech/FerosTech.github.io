@@ -79,6 +79,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#case-3-automated-reporting-data-insights-python-pandas" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -549,6 +554,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Case 3 (Python & Data)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -566,6 +591,75 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#stage-1-the-problem-with-manual-data-processing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔍 Stage 1: The Problem with Manual Data Processing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stage-2-python-powered-solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠 Stage 2: Python-Powered Solution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🛠 Stage 2: Python-Powered Solution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-data-aggregation-via-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Data Aggregation via API
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-data-wrangling-cleaning-merging" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Data Wrangling (Cleaning &amp; Merging)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -596,51 +690,51 @@
 
 
 
-  <h1>Case 3 (Python & Data)</h1>
-
-<p># Case 3: Automated Reporting \&amp; Data Insights (Python + Pandas)</p>
+<h1 id="case-3-automated-reporting-data-insights-python-pandas">Case 3: Automated Reporting &amp; Data Insights (Python + Pandas)</h1>
 <div class="admonition abstract">
 <p class="admonition-title">Client Brief (Simulation)</p>
+<p><strong>Niche:</strong> Large eCommerce Project (Multi-channel traffic).
+<strong>Problem:</strong> The marketing team spends 10-15 hours a week manually consolidating data from Google Ads, Meta Ads, CRM, and Google Analytics into massive Excel spreadsheets. Human error frequently occurs, and decisions are made with delays.
+<strong>Task:</strong> Automate the data collection process, build end-to-end analytics, and find hidden patterns (insights) that are not visible in standard ad account reports.</p>
 </div>
-<p>&nbsp;   **Niche:** Large eCommerce Project (Multi-channel traffic).</p>
-<p>&nbsp;   **Problem:** The marketing team spends 10-15 hours a week manually consolidating data from Google Ads, Meta Ads, CRM, and Google Analytics into massive Excel spreadsheets. Human error frequently occurs, and decisions are made with delays.</p>
-<p>&nbsp;   **Task:** Automate the data collection process, build end-to-end analytics, and find hidden patterns (insights) that are not visible in standard ad account reports.</p>
 <hr />
-<p>## 🔍 Stage 1: The Problem with Manual Data Processing</p>
-<p>During the reporting process audit, I discovered:</p>
-<p>* **Data Silos:** Meta Ads shows one number of conversions, Google Ads shows another, and the CRM has completely different figures. There is no single "source of truth."</p>
-<p>* **Inability to do Cohort Analysis:** Manually calculating the LTV (Lifetime Value) of clients who came from a specific ad campaign six months ago was practically impossible.</p>
-<p>* **Time Waste:** Instead of optimizing campaigns, specialists were busy copy-pasting.</p>
+<h2 id="stage-1-the-problem-with-manual-data-processing">🔍 Stage 1: The Problem with Manual Data Processing</h2>
+<p>During the reporting process audit, I discovered:
+* <strong>Data Silos:</strong> Meta Ads shows one number of conversions, Google Ads shows another, and the CRM has completely different figures. There is no single "source of truth."
+* <strong>Inability to do Cohort Analysis:</strong> Manually calculating the LTV (Lifetime Value) of clients who came from a specific ad campaign six months ago was practically impossible.
+* <strong>Time Waste:</strong> Instead of optimizing campaigns, specialists were busy copy-pasting.</p>
 <hr />
-<p>## 🛠 Stage 2: Python-Powered Solution</p>
+<h2 id="stage-2-python-powered-solution">🛠 Stage 2: Python-Powered Solution</h2>
 <p>To eliminate these issues, I applied a Data Science approach by writing an automation script:</p>
-<p>### 1. Data Aggregation via API</p>
+<h3 id="1-data-aggregation-via-api">1. Data Aggregation via API</h3>
 <p>Wrote a Python script that automatically pulls Raw Data via API from Google Ads, Facebook Graph API, and the Shopify platform.</p>
-<p>### 2. Data Wrangling (Cleaning \&amp; Merging)</p>
-<p>Used the **Pandas** library to process data arrays. The script removes duplicates, normalizes UTM parameters, and merges ad spend with actual CRM revenue based on unique user or transaction IDs.</p>
+<h3 id="2-data-wrangling-cleaning-merging">2. Data Wrangling (Cleaning &amp; Merging)</h3>
+<p>Used the <strong>Pandas</strong> library to process data arrays. The script removes duplicates, normalizes UTM parameters, and merges ad spend with actual CRM revenue based on unique user or transaction IDs.</p>
 <p>```python</p>
-<p># Pandas data processing logic snippet</p>
+<h1 id="pandas-data-processing-logic-snippet">Pandas data processing logic snippet</h1>
 <p>import pandas as pd</p>
-<p># Load raw data</p>
-<p>ads_data = pd.read_csv('export_ads.csv')</p>
-<p>crm_data = pd.read_csv('export_crm.csv')</p>
-<p># Merge data based on UTM campaigns and dates</p>
+<h1 id="load-raw-data">Load raw data</h1>
+<p>ads_data = pd.read_csv('export_ads.csv')
+crm_data = pd.read_csv('export_crm.csv')</p>
+<h1 id="merge-data-based-on-utm-campaigns-and-dates">Merge data based on UTM campaigns and dates</h1>
 <p>merged_df = pd.merge(ads_data, crm_data, on=['date', 'utm_campaign'], how='left')</p>
-<p># Calculate actual ROAS and CPA</p>
-<p>merged_df['real_cpa'] = merged_df['spend'] / merged_df['crm_approved_leads']</p>
-<p>merged_df['real_roas'] = (merged_df['crm_revenue'] / merged_df['spend']) * 100</p>
-<p># Find the most profitable days of the week</p>
+<h1 id="calculate-actual-roas-and-cpa">Calculate actual ROAS and CPA</h1>
+<p>merged_df['real_cpa'] = merged_df['spend'] / merged_df['crm_approved_leads']
+merged_df['real_roas'] = (merged_df['crm_revenue'] / merged_df['spend']) * 100</p>
+<h1 id="find-the-most-profitable-days-of-the-week">Find the most profitable days of the week</h1>
 <p>insights = merged_df.groupby('day_of_week')['real_roas'].mean().sort_values(ascending=False)</p>
 <ol>
-<li>Telegram Alerts Setup</li>
+<li>Telegram Alerts Setup
+Added a notification function to the script. Now, if a specific campaign's ROAS drops below a critical level (e.g., &lt;150%) for 24 hours, the script automatically sends an alert to the team's Telegram chat.</li>
 </ol>
-<p>Added a notification function to the script. Now, if a specific campaign's ROAS drops below a critical level (e.g., &lt;150%) for 24 hours, the script automatically sends an alert to the team's Telegram chat.</p>
 <div class="admonition success">
 <p class="admonition-title">Business Impact</p>
 </div>
-<p>* Time Saved: A process that took 15 hours a week is now executed automatically in 2 minutes every morning.</p>
-<p>* Data-Driven Insights: Analysis of the datasets showed that users acquired through night-time campaigns on Meta Ads have a 40% higher LTV. The budget was reallocated, resulting in a +18% increase in overall profit for the quarter.</p>
-<p>* Transparency: The client received fully transparent end-to-end analytics, clearly showing the actual return on every invested dollar.</p>
+<ul>
+<li>Time Saved: A process that took 15 hours a week is now executed automatically in 2 minutes every morning.</li>
+<li>Data-Driven Insights: Analysis of the datasets showed that users acquired through night-time campaigns on Meta Ads have a 40% higher LTV. The budget was reallocated, resulting in a +18% increase in overall profit for the quarter.</li>
+<li>Transparency: The client received fully transparent end-to-end analytics, clearly showing the actual return on every invested dollar.</li>
+</ul>
 
 
 
