@@ -65,3 +65,11 @@ plugins:
           name: Українська
         - locale: en
           name: English
+          nav_translations:
+            Про мене: About Me
+            Досвід роботи: Experience
+            Навички та Освіта: Skills & Education
+            Тестові завдання: Case Studies
+            Кейс 1 (eCommerce): Case 1 (eCommerce)
+            Кейс 2 (Веб-аналітика): Case 2 (Web Analytics)
+            Кейс 3 (Python & Data): Case 3 (Python & Data)
