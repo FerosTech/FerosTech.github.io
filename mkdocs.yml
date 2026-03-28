@@ -33,6 +33,7 @@ nav:
   - Навички та Освіта: skills.md
   - Тестові завдання:
       - Case 1 (eCommerce): case1.md
+      - Case 2 (Веб-аналітика): case2.md
 
 markdown_extensions:
   - admonition
