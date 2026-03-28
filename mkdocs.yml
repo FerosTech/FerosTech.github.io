@@ -31,3 +31,13 @@ nav:
   - Про мене: index.md
   - Досвід роботи: experience.md
   - Навички та Освіта: skills.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

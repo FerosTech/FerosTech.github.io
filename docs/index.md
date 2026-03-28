@@ -13,5 +13,5 @@
 ## Контакти
 * 📍 **Локація:** Львів, Україна
 * 📱 **Телефон:** +38 097 718 92 26
-* 📧 **Email:** forworkferos@gmail.com
-* ✈️ **Telegram:** [@FirstOpp](https://t.me/FirstOpp)
+* 📧 **Email:** [Написати на Email 📧](mailto:forworkferos@gmail.com){ .md-button }
+* ✈️ **Telegram:** [Написати в Telegram ✈️](https://t.me/FirstOpp){ .md-button .md-button--primary }
